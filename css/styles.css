@@ -1,0 +1,37 @@
+/* Start of Main body */
+
+.cd {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    margin: 80px 0;
+    height: 520px;
+    width: 300px;
+    border-radius: 10px 0 0 10px;
+}
+
+.card {
+    display: flex;
+    margin: 80px 0;
+    padding: 35px;
+    height: 450px;
+    width: 300px;
+    border-radius: 0 10px 10px 0;
+    background-color: var(--white);
+}
+
+
+
+/* End of Main body */
+
+/* Start of Footer */
+
+.attribution {
+    font-size: 16px;
+    text-align: center;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* End of Footer */

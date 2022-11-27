@@ -1,0 +1,49 @@
+:root {
+    --black: #000;
+    --font-color-base: #666;
+    --font-color-dark: #212529;
+    --font-color-light: #B0AEBE;
+    --font-color-link: #57A6FF;
+    --footer: #34314B;
+    --footer-base: #2E2B45;
+    --contrast: rgba(246, 248, 249, 0.8);
+
+    /* Primary colors */
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+
+    /* Neutral colors */
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+
+    /* Sizes */
+    --size-10: 0.625rem;
+    --size-14: 0.875rem;
+    --size-16: 1rem;
+    --size-18: 1.125rem;
+    --size-20: 1.25rem;
+    --size-25: 1.5625rem;
+    --size-30: 1.875rem;
+    --size-40: 2.5rem;
+    --size-50: 3.125rem;
+    --size-100: 6.25rem;
+    --size-150: 9.325rem;
+}
+
+
+body {
+    background-color: var(--cream);
+    font-size: var(--size-16);
+}
+
+
+
+
+@media (min-width: 375px) {
+    
+}
+
+@media (min-width: 1440px) {
+
+}
