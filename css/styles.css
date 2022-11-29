@@ -116,6 +116,11 @@
 
 /* Start of Footer */
 
+footer {
+    position: relative;
+    top: 200px;
+}
+
 .attribution {
     position: relative;
     font-size: 16px;

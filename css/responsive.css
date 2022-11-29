@@ -40,9 +40,13 @@
 
     .btn { left: 2px; }
 
+    footer { top: 0; }
+
     .attribution {
+        position: relative;
         width: 260px;
         margin: auto;
+        top: 150px;
     }
 }
 
