@@ -1,0 +1,47 @@
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 375px) {
+    .cd {
+        top: 0;
+    }
+
+    .container {
+        display: block;
+        padding: 10px;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .img-mobile {
+        display: block;
+        margin-bottom: 0;
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .card {
+        display: inherit;
+        margin-top: 0;
+        position: relative;
+        border-radius: 0 0 10px 10px;
+        width: auto;
+    }
+
+    .price {
+        top: 35px;
+        right: 34px;
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
+
+    .btn { left: 2px; }
+
+    .attribution {
+        width: 260px;
+        margin: auto;
+    }
+}

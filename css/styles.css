@@ -3,23 +3,111 @@
 .cd {
     display: flex;
     justify-content: center;
+    position: relative;
+    top: 180px;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    height: 100%;
+    top: 100px;
 }
 
 .image {
-    margin: 80px 0;
-    height: 520px;
     width: 300px;
     border-radius: 10px 0 0 10px;
 }
 
+.img-mobile {
+    display: none;
+}
+
 .card {
-    display: flex;
-    margin: 80px 0;
+    display: inline;
     padding: 35px;
-    height: 450px;
-    width: 300px;
+    width: 215px;
     border-radius: 0 10px 10px 0;
     background-color: var(--white);
+}
+
+.header { display: grid; }
+
+.perfume {
+    font-family: montserrat;
+    font-size: var(--size-12);
+    color: #93939E;
+    letter-spacing: 0.1875rem;
+}
+
+.gabrielle {
+    position: relative;
+    top: 20px;
+    font-weight: 700;
+    font-size: var(--size-32);
+    font-family: 'Fraunces', serif;
+    line-height: 1;
+}
+
+.card > p {
+    position: relative;
+    top: 26px;
+    color: var(--dark-cyan);
+    line-height: 1.5;
+    font-size: 14px;
+    width: 224px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: 10px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.sale {
+    color: #44745F;
+    font-weight: 700;
+    font-size: var(--size-32);
+    font-family: 'Fraunces', serif;
+}
+
+.actual {
+    display: flex;
+    position: relative;
+    top: 12px;
+    text-decoration: line-through;
+    color: #93939E;
+    font-size: var(--size-12);
+}
+
+.btn {
+    position: relative;
+    left: 8px;
+    border-radius: 10px;
+    background-color: var(--dark-cyan);
+}
+
+.shopping, .cart {
+    display: flex;
+}
+
+.shopping {
+    position: relative;
+    right: 10px;
+    height: 14px;
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+    font-family: montserrat;
+    font-weight: 600;
+    font-size: var(--size-14);
+    padding: var(--size-14);
 }
 
 
@@ -29,8 +117,10 @@
 /* Start of Footer */
 
 .attribution {
+    position: relative;
     font-size: 16px;
     text-align: center;
+    top: 150px;
 }
 .attribution a { color: hsl(228, 45%, 44%); }
 
