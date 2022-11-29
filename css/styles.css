@@ -52,7 +52,7 @@
 .card > p {
     position: relative;
     top: 26px;
-    color: var(--dark-cyan);
+    color: #93939E;
     line-height: 1.5;
     font-size: 14px;
     width: 224px;
