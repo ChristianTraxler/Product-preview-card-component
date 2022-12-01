@@ -10,6 +10,7 @@
     .container {
         display: block;
         padding: 10px;
+        height: 100%;
     }
 
     .image {
