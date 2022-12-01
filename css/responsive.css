@@ -3,6 +3,11 @@
 }
 
 @media screen and (max-width: 430px) {
+
+    main {
+        top: 0;
+    }
+
     .cd {
         top: 0;
     }

@@ -1,10 +1,13 @@
 /* Start of Main body */
 
+main {
+    position: relative;
+    top: 145px;
+}
+
 .cd {
     display: flex;
     justify-content: center;
-    position: relative;
-    top: 130px;
 }
 
 .container {
@@ -108,7 +111,7 @@
 
 footer {
     position: relative;
-    top: 160px;
+    top: 40px;
 }
 
 .attribution {
