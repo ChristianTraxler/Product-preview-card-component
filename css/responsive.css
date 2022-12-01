@@ -29,13 +29,14 @@
         position: relative;
         border-radius: 0 0 10px 10px;
         width: auto;
+        padding-bottom: 35px;
     }
 
     .price {
-        top: 35px;
+        top: 25px;
         right: 50px;
         margin-top: 0;
-        margin-bottom: 60px;
+        margin-bottom: 50px;
     }
 
     .btn { left: 2px; }
@@ -46,7 +47,6 @@
         position: relative;
         width: 260px;
         margin: auto;
-        top: 150px;
     }
 }
 
