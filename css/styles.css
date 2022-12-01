@@ -4,14 +4,13 @@
     display: flex;
     justify-content: center;
     position: relative;
-    top: 180px;
+    top: 50px;
 }
 
 .container {
     display: flex;
     position: relative;
-    height: 100%;
-    top: 100px;
+    height: 436px;
 }
 
 .image {
@@ -19,13 +18,11 @@
     border-radius: 10px 0 0 10px;
 }
 
-.img-mobile {
-    display: none;
-}
+.img-mobile { display: none; }
 
 .card {
     display: inline;
-    padding: 35px;
+    padding: 35px 35px 0 35px;
     width: 215px;
     border-radius: 0 10px 10px 0;
     background-color: var(--white);
@@ -34,7 +31,7 @@
 .header { display: grid; }
 
 .perfume {
-    font-family: montserrat;
+    font-family: 'Montserrat', serif;
     font-size: var(--size-12);
     color: #93939E;
     letter-spacing: 0.1875rem;
@@ -42,16 +39,13 @@
 
 .gabrielle {
     position: relative;
-    top: 20px;
-    font-weight: 700;
-    font-size: var(--size-32);
     font-family: 'Fraunces', serif;
     line-height: 1;
 }
 
 .card > p {
     position: relative;
-    top: 26px;
+    margin: 0;
     color: #93939E;
     line-height: 1.5;
     font-size: 14px;
@@ -63,7 +57,7 @@
     justify-content: space-evenly;
     position: relative;
     right: 10px;
-    margin-top: 60px;
+    margin-top: 25px;
     margin-bottom: 20px;
 }
 
@@ -90,9 +84,7 @@
     background-color: var(--dark-cyan);
 }
 
-.shopping, .cart {
-    display: flex;
-}
+.shopping, .cart { display: flex; }
 
 .shopping {
     position: relative;
@@ -104,13 +96,11 @@
     display: flex;
     justify-content: center;
     color: var(--white);
-    font-family: montserrat;
+    font-family: 'Montserrat', serif;
     font-weight: 600;
     font-size: var(--size-14);
     padding: var(--size-14);
 }
-
-
 
 /* End of Main body */
 
@@ -118,14 +108,13 @@
 
 footer {
     position: relative;
-    top: 200px;
+    top: 80px;
 }
 
 .attribution {
     position: relative;
     font-size: 16px;
     text-align: center;
-    top: 150px;
     line-height: 1.5;
 }
 .attribution a { color: hsl(228, 45%, 44%); }
