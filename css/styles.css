@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     position: relative;
-    top: 50px;
+    top: 100px;
 }
 
 .container {
@@ -108,7 +108,7 @@
 
 footer {
     position: relative;
-    top: 80px;
+    top: 130px;
 }
 
 .attribution {
